@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #818181;
+  text-rendering: optimizeLegibility;
+  line-height: 1.3;
+  font-size: 1.6rem;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 4rem !important;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.6rem !important;
+  font-weight: 400;
+  color: #e75b4c;
+}
+
+p {
+  font-size: 1.4rem !important;
+  line-height: 1.8;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background: #e75b4c;
+  padding: 1.5rem 2rem;
+  border-radius: 15.5rem;
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  color: #e75b4c;
+}
+
+.li.nav-item {
+  margin-left: 2rem;
+}
+
+section {
+  padding: 8rem 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 4rem;
+}
+
+a.primary-btn {
+  color: #e75b4c !important;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 20rem;
+  margin-top: 2rem;
+  display: inline-block;
+  margin-right: 3rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+a.primary-btn:hover {
+  background: #e75b4c;
+  color: #fff !important;
+  transition: 0.5s ease all;
+}
+
+a.secondary-btn {
+  color: #fff;
+  background: #2330ce;
+  padding: 1.5rem 2rem;
+  border-radius: 20rem;
+  display: inline-block;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+a.secondary-btn:hover {
+  background: #e3e3e3;
+  color: #2330ce !important;
+  transition: 0.5s ease all;
+}
+
+.simplte-text-box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  background: url(../../img/headerbg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: unset;
+}
+header .main-head-wrapper .hero-text-box {
+  margin-top: 8rem;
+}
+header .main-head-wrapper .hero-text-box p {
+  font-size: 1.8rem !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff !important;
+}
+header .main-head-wrapper .hero-text-box a.primary-btn {
+  color: #e75b4c !important;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 20rem;
+  margin-top: 2rem;
+  display: inline-block;
+  margin-right: 3rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+header .main-head-wrapper .hero-text-box a.primary-btn:hover {
+  background: #e75b4c;
+  color: #fff !important;
+  transition: 0.5s ease all;
+}
+header .main-head-wrapper .hero-text-box a.secondary-btn {
+  color: #fff;
+  background: #2330ce;
+  padding: 1.5rem 2rem;
+  border-radius: 20rem;
+  display: inline-block;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+header .main-head-wrapper .hero-text-box a.secondary-btn:hover {
+  background: #e3e3e3;
+  color: #2330ce !important;
+  transition: 0.5s ease all;
+}
+header .main-head-wrapper .hero-img-rocket {
+  width: 100%;
+}
+header .bottom-header .card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
+header .bottom-header .card img {
+  width: 5rem;
+  margin-bottom: 3rem !important;
+}
+header .bottom-header .card p {
+  color: #818181 !important;
+}
+header .bottom-header .card h3 {
+  margin-bottom: 3rem;
+}
+header .bottom-header .card a {
+  color: #cecece !important;
+  font-size: 1.8rem;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  display: block;
+}
+header .bottom-header .card a:hover {
+  color: #e75b4c !important;
+}
+header .bottom-header .card.text-center:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.3) 0rem 0.3rem 0.7rem -0.3rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.work-section .left1 img {
+  height: 33rem;
+}
+.work-section h2 {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.work-section .div1 {
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+.work-section .div1:last-child {
+  margin-bottom: 0;
+}
+.work-section .row2 {
+  margin-top: 20rem;
+}
+.work-section .row2 h4 {
+  margin-top: 3rem;
+}
+.work-section .row2 span {
+  color: #e75b4c;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.pricing-section .simplte-text-box {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  width: 50%;
+}
+.pricing-section .simplte-text-box h2 {
+  margin-bottom: 2rem;
+}
+.pricing-section .pricing-card .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.3rem 0.8rem;
+}
+.pricing-section .pricing-card .card:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+}
+.pricing-section .pricing-card .card-header {
+  border: none;
+}
+.pricing-section .pricing-card .card-header h3 {
+  margin-top: 2rem;
+}
+.pricing-section .pricing-card .card-header p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.pricing-section .pricing-card .card-header p small {
+  font-weight: bold;
+}
+.pricing-section .pricing-card .card-body {
+  border: none;
+}
+.pricing-section .pricing-card .card-body span {
+  color: #e75b4c;
+  margin-right: 2rem;
+}
+.pricing-section .pricing-card .card-body p {
+  font-weight: 400;
+}
+.pricing-section .pricing-card .card-footer {
+  border: none;
+}
+.pricing-section .pricing-card .card-footer a.secondary-btn {
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.sheild-section {
+  background: url(../../img/sheild-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.sheild-section .sheild-text {
+  width: 35rem;
+}
+.sheild-section .sheild-text.sheild-text-left {
+  margin-top: 24rem;
+}
+.sheild-section .sheild-text.sheild-text-right-2 {
+  margin-top: 24rem;
+}
+
+.testimonial-section {
+  background: url(../../img/layer3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 104%;
+  height: 70vh;
+}
+.testimonial-section .tesimonial-box h3 {
+  margin-bottom: 3rem;
+}
+.testimonial-section .tesimonial-box .test-btn {
+  padding: 1rem 3rem;
+}
+.testimonial-section .box {
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 2rem 3rem;
+}
+.testimonial-section .box .client-wrapper .ceo {
+  margin-left: 3rem;
+}
+.testimonial-section .box .client-wrapper .ceo small {
+  font-weight: bold;
+}
+.testimonial-section .box:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+}
+.testimonial-section .ceo-p {
+  margin-top: 2rem;
+}
+
+.news-section h2 {
+  margin-bottom: 3rem;
+}
+.news-section p {
+  margin-bottom: 5rem;
+}
+.news-section ol.carousel-indicators {
+  display: none;
+}
+.news-section span.carousel-control-next-icon {
+  display: none;
+}
+.news-section span.carousel-control-prev-icon {
+  display: none;
+}
+.news-section h3 {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.news-section a {
+  color: #cecece !important;
+  text-align: start;
+}
+.news-section a:hover {
+  color: #e75b4c !important;
+  text-decoration: underline;
+}
+
+footer {
+  background: url(../../img/footbg.png);
+  padding: 8rem 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -30%;
+}
+footer .search-footer h2 {
+  margin-bottom: 3rem;
+}
+footer h4 {
+  margin-left: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+footer .first-div a {
+  color: #818181 !important;
+}
+footer .first-div p {
+  color: #818181 !important;
+}
+footer .first-div p:hover {
+  color: #e75b4c !important;
+}
+footer input.form-control {
+  padding: 2.2rem;
+  border: 0.2rem solid #e75b4c;
+}
+footer input.form-control:focus {
+  outline: none;
+}
+footer input.form-control::placeholder {
+  font-size: 1.5rem;
+  color: #e75b4c;
+}
+
+@media (max-width: 1024px) {
+  .sheild-section .sheild-text.sheild-text-left {
+    margin-top: 40rem;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+@media (max-width: 768px) {
+  .nav-link {
+    margin-top: 3rem;
+  }
+
+  .navbar.navbar-expand-lg.pt-5.navbar-light {
+    text-align: center;
+  }
+
+  .row.bottom-header {
+    margin-top: 5rem;
+  }
+
+  .edit-btn {
+    display: none !important;
+  }
+
+  .work-section h2 {
+    text-align: center;
+  }
+
+  .work-section .div1 {
+    margin-bottom: 8rem;
+  }
+
+  .layer1 {
+    display: none;
+  }
+
+  .work-section .row2 {
+    margin-top: 5rem;
+  }
+
+  .pricing-section .pricing-card .card {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 5rem 0;
+  }
+
+  .pew {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .test-p {
+    color: #000;
+  }
+}
+@media (max-width: 576px) {
+  header .main-head-wrapper .hero-img-rocket {
+    width: 100%;
+    display: none;
+  }
+
+  header {
+    text-align: center;
+    background-size: cover;
+  }
+
+  footer {
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+  }
+
+  footer .first-div p {
+    color: #fff !important;
+  }
+
+  footer .search-footer h2 {
+    color: #fff !important;
+  }
+
+  .news-section a {
+    margin-bottom: 3rem;
+    display: inline-block;
+  }
+}
+#up {
+  color: #e75b4c;
+  padding: 1rem;
+  font-weight: 900;
+  background: #fff;
+  border-radius: 0.5rem;
+  bottom: 2rem;
+  position: fixed;
+  right: 5rem;
+  z-index: 99;
+  border: 0.1rem solid #e75b4c;
+  cursor: pointer;
+  /*    display: none;*/
+}
+
+#up:hover {
+  background: #e75b4c;
+  color: #fff;
+}
